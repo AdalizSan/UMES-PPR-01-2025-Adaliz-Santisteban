@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .container{
     background-color: #E0E0E0;
@@ -9,13 +10,21 @@
     flex-direction: row;
     justify-content: space-between;
     background-color: white;
-    box-shadow: 7px 10px 15px #00000050;
-    transition: background-color 1s ease-in-out;
+    border-bottom: 2px solid black;
+    box-shadow: 7px 15px 15px #00000050;
+    transition: background-color 1s, color 1s ease-in-out;
     position: fixed;
     height: 10vh;
     width: 100%;
-    align-content: center;
+    align-items: center;
     
+}
+.text{
+    margin-left: auto;
+    margin-right: 10px;
+}
+.logo{
+    height: 70%;
 }
 .container-header:hover{
     background-color: black;
